@@ -7,15 +7,18 @@
 * [Quantumult X](#Quantumult%20X)
 * [Loon](#Loon)
 * [Surge](#Surge)
+* [Shadowrocket](#Shadowrocket)
+
 * [TikTok 去水印下载捷径](#去水印下载捷径)
 
 ---
+
 ### <a id="TikTok"> TikTok </a>
 
-* iOS系统版本：14.5 （18E5164h）
-* TikTok版本：v18.7.0（1870140）
-* TikTok TF版本：v18.7.5（1870501）
-* 下载方式：在 美区/日区/港区/台区 App Store搜索 TikTok 并下载
+* iOS系统版本：14.5 Beta4
+* TikTok版本：v18.8.0
+* TikTok TF版本：v18.8.5
+* 下载方式：在 美区/日区/台区 App Store搜索 TikTok 并下载 （港区已停止运营）
 	* 支持功能：
 
      - [x] 换区
@@ -41,6 +44,7 @@
 - 自备代理，ss/ssr/vmess等  
 
 ---
+
 ### <a id="Quantumult X"> Quantumult X </a>
 
 **关于换区**
@@ -120,6 +124,14 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 
 6、开启Quantumult X：前往Quantumult X的主页--）找到`TikTok`策略--）长按添加`节点`--)TikTok愉快
 
+**特别说明**
+
+1、为什么要先卸载TikTok，TikTok会在第一次使用时触发限制，并导致之后无法通过MiMt解密  
+2、所以先配置好规则之后，然后在下载TikTok，减少重定向的请求次数，降低风险，延长规则的寿命  
+3、为什么配置好之后还是无法使用，请检查软件的证书有没有安装，信任，  
+4、或者是Https解密（MiMt）与重写（Rewrite）有没有开启  
+5、或者是软件是不是盗版，比如用共享ID下载的Quantumult X，有设备限制，是无法使用重写脚本功能的  
+
 ---
 
 ### <a id="Loon"> Loon </a>
@@ -154,7 +166,9 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokUS.pl
 https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list, tag=TikTok, policy=TikTok, update-interval=86400, enabled=true
 
 ```
+
 ---
+
 ### <a id="Surge"> Surge </a>
 
 
@@ -181,17 +195,53 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-US.s
 
 ```
 
+3、添加以下`分流`
 
-**特别说明**
+```
 
-1、为什么要先卸载TikTok，TikTok会在第一次使用时触发限制，并导致之后无法通过MiMt解密  
-2、所以先配置好规则之后，然后在下载TikTok，减少重定向的请求次数，降低风险，延长规则的寿命  
-3、为什么配置好之后还是无法使用，请检查软件的证书有没有安装，信任，  
-4、或者是Https解密（MiMt）与重写（Rewrite）有没有开启  
-5、或者是软件是不是盗版，比如用共享ID下载的Quantumult X，有设备限制，是无法使用重写脚本功能的  
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list
+
+```
+
+---
+
+### <a id="Shadowrocket"> Shadowrocket </a>
+
+
+**操作步骤**
+
+1、打开`Shadowrocket`  
+
+2、点击`配置`进去添加想看国家的对应模块。
+
+```
+
+日本
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-JP.conf
+
+台湾
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-TW.conf
+
+韩国
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-KR.conf
+
+美国
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-US.conf
+
+```
+
+3、添加以下`分流`
+
+```
+
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TikTok.list
+
+```
+
+---
 
 ### <a id="去水印下载捷径"> TikTok 去水印下载捷径 </a>
 
 [下载地址](https://www.icloud.com/shortcuts/eb1ffe374b684c6283115dc59b93c879)
 
----
+
