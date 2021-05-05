@@ -15,9 +15,9 @@
 
 ### <a id="TikTok"> TikTok </a>
 
-* iOS系统版本：14.5 Beta4
-* TikTok版本：v18.8.0
-* TikTok TF版本：v18.8.5
+* iOS系统版本：14.6 （支持向下兼容）
+* TikTok版本：v19.2.0（支持向下兼容）
+* TikTok TF版本：v19.3.0（支持向下兼容）
 * 下载方式：在 美区/日区/台区 App Store搜索 TikTok 并下载 （港区已停止运营）
 	* 支持功能：
 
@@ -242,6 +242,6 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/Tik
 
 ### <a id="去水印下载捷径"> TikTok 去水印下载捷径 </a>
 
-[下载地址](https://www.icloud.com/shortcuts/eb1ffe374b684c6283115dc59b93c879)
+[下载地址](https://www.icloud.com/shortcuts/b27ab05345e64b4a9c1b499648b4ea38)
 
 
